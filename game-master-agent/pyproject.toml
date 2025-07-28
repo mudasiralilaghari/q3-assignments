@@ -1,0 +1,19 @@
+[project]
+name = "game-master-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mudasir Ali", email = "159126998+mudasiralilaghari@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.3",
+]
+
+[project.scripts]
+game-master-agent = "game_master_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
